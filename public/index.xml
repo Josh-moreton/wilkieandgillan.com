@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wilkie &amp; Gillan</title>
+    <link>https://wilkieandgillan.com/</link>
+    <description>Recent content on Wilkie &amp; Gillan</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Apr 2024 20:56:42 +0600</lastBuildDate>
+    <atom:link href="https://wilkieandgillan.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A reimagining in Greenock</title>
+      <link>https://wilkieandgillan.com/portfolio/greenock/</link>
+      <pubDate>Mon, 29 Apr 2024 20:56:42 +0600</pubDate>
+      <guid>https://wilkieandgillan.com/portfolio/greenock/</guid>
+      <description>In the bustling town of Greenock, we recently completed a transformative bathroom renovation project that involved more than just a mere facelift.&#xA;By boldly reimagining the space, we bid farewell to an awkward little hallway, opting instead to extend the bathroom by an additional meter.</description>
+    </item>
+    <item>
+      <title>Crammond</title>
+      <link>https://wilkieandgillan.com/portfolio/crammond/</link>
+      <pubDate>Thu, 23 Feb 2023 15:44:46 +0600</pubDate>
+      <guid>https://wilkieandgillan.com/portfolio/crammond/</guid>
+      <description>The “Seamless Watch” watch has all the features that users expect in a digital watch, and some unusual features.&#xA;The watch has the following features:</description>
+    </item>
+  </channel>
+</rss>

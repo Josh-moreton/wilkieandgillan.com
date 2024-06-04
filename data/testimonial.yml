@@ -1,0 +1,18 @@
+enable  : true
+title   : "Comments from recent clients"
+subtitle: "What clients says about our services."
+testimonial_item :
+  - name  : "Annie"
+    company_position: "January"
+    quote : > 
+            "I couldn't be happier with the bathroom renovation done by Jack and Euan. They were professional, courteous, and the end result is stunning!"
+  - thumb : "images/testimonial/user-thumb-two.jpg"
+    name  : "Finlay"
+    company_position: "January"
+    quote : > 
+            "From start to finish, Jack and Euan were a pleasure to work with. They listened to my ideas and brought them to life in my dream kitchen. Thank you!"
+  - thumb : "images/testimonial/user-thumb-three.jpg"
+    name  : "Josh & Faith"
+    company_position: "February"
+    quote : > 
+            "Euan and Jack were a dream team to work with. They were professional, punctual, and their attention to detail was exceptional. We love our new bathroom!"

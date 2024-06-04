@@ -1,0 +1,143 @@
+baseURL       = "https://wilkieandgillan.com/"
+languageCode  = "en-us"
+title         = "Wilkie & Gillan"
+theme         = "roxo-hugo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "About"
+    url     = "about"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Portfolio"
+    url     = "portfolio"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Get in touch"
+    url     = "contact"
+    weight  = 5
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  logo_footer = "images/logo-footer.png"
+  favicon_icon = "images/favicon.ico"
+  favicon_shortcut_icon = "images/favicon.png"
+  custom_stylesheets = []   # [ "scss/my_1.scss", "scss/my_2.scss" ]
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Wilkie & Gillan Joinery and Plumbing"
+  author = "Digintel"
+  # Google Analitycs
+  googleAnalitycsID = "G-EV0FZEL8SV"
+  form  = "https://formspree.io/f/mkndlnln"
+
+  # Contact Form
+  [params.contactForm]
+    placeholder_first_name        = "First Name"
+    placeholder_last_name         = "Last Name"
+    placeholder_email             = "Email"
+    placeholder_project_type      = "Project Type"
+    placeholder_about_the_project = "About the Project"
+    send_message                  = "Send Message"
+
+    [[params.contactForm.projectType]]
+      value = "br"
+      title  = "Bathrooms"
+    [[params.contactForm.projectType]]
+      value = "kt"
+      title  = "Kitchens"
+   [[params.contactForm.projectType]]
+      value = "bl"
+      title  = "Boiler installations"
+   [[params.contactForm.projectType]]
+      value = "jn"
+      title  = "Joinery work"
+   [[params.contactForm.projectType]]
+      value = "pl"
+      title  = "Plumbing work"
+   [[params.contactForm.projectType]]
+      value = "ti"
+      title  = "Tiling"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/Wilkie & Gillan-2.png"
+    heading               = "Wilkie & Gillan"
+    tagline               = "Joinery | Plumbing | Tiling"
+    primary_button        = "See Our Works"
+    primary_button_url    = "portfolio"
+    secondary_button      = "Request a Consultation"
+    secondary_button_url  = "contact"
+
+  [params.blog]
+    read_more             = "read more"
+
+  [params.portfolio]
+    enable    = true
+    title     = "OUR RECENT WORKS"
+    subtitle  = "Gently breathing new life into existing spaces."
+    view_project = "view project"
+    more_works = "MORE WORKS"
+    scroll_down = "scroll down"
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "LET’S WORK TOGETHER"
+    primary_button      = "Submit Query"
+    primary_button_url  = "contact"
+    secondary_button    = "Not Convinced"
+    secondary_button_url = "portfolio"
+
+  [params.footer]
+    params.footer.qr_print = false
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact Info"
+      address = "126 Pinkie Rd<br>Musselburgh, EH21"
+      Jack   = "+44 7538 245 886"
+      Euan   = "+44 7365 101 109"
+      email   = "enquiries@WilkieandGillan.com"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About Company"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Projects"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "Facebook"
+          url  = "https://www.facebook.com/pridehdltd/"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "https://www.instagram.com/pridetradeservices/"
+      # Footer Service
+      [params.footer.service]
+        title       = "We can help with:"
+        description = "Bathroom fitting<br>Kitchen fitting<br>New boilers"
+      [params.footer.back_to_top]
+        description = "I want to <br> visit again"

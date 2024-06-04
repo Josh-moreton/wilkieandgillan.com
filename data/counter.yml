@@ -1,0 +1,14 @@
+enable : true
+heading : "Delivering quality outcomes across Edinburgh"
+counter_item: 
+  - title: "Happy Clients"
+    number: "278"
+
+  - title: "Projects Completed"
+    number: "112"
+
+  - title: "Cups of Coffee"
+    number: "600"
+
+  - title: "Free Consultations"
+    number: "757"
