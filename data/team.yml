@@ -1,16 +1,16 @@
-enable  : true
-title   : Team that makes the difference.
-members  :
-  - image       : images/team/team-member-one.jpg
-    name        : Jack Gillan
-    designation : Plumbing
-    medium      : https://www.medium.com/
-    linkedin    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+enable: true
+title: Team that makes the difference.
+members:
+  - image: images/team/Jack.jpeg
+    name: Jack Gillan
+    designation: Plumbing
+    medium: https://www.medium.com/
+    linkedin: https://www.linkedin.com/
+    instagram: https://www.instagram.com/
 
-  - image       : images/team/team-member-two.jpg
-    name        : Euan Wilkie
-    designation : Joinery
-    medium      : https://www.medium.com/
-    linkedin    : https://www.linkedin.com/
-    instagram   : https://www.instagram.com/
+  - image: images/team/Euan.jpeg
+    name: Euan Wilkie
+    designation: Joinery
+    medium: https://www.medium.com/
+    linkedin: https://www.linkedin.com/
+    instagram: https://www.instagram.com/
